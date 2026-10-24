@@ -59,24 +59,24 @@
 	@media screen and (max-width: 480px) {
 		/* Reset Astral template absolute positioning on mobile */
 		#nav {
-			top: -15px !important;
+			top: -18px !important;
 			left: 0 !important;
 			margin-left: 0 !important;
 			width: 100% !important;
 			display: flex !important;
 			justify-content: center !important;
 			align-items: center !important;
-			gap: 6px !important;
+			gap: 4px !important; /* Tighter gap so larger icons still fit */
 		}
 		#nav a {
 			position: relative !important;
 			left: auto !important;
 			top: auto !important;
 			margin: 0 !important;
-			font-size: 18px !important;
-			width: 38px !important;
-			height: 38px !important;
-			line-height: 38px !important;
+			font-size: 22px !important; /* Increased size for better visibility */
+			width: 42px !important;     /* Larger touch target */
+			height: 42px !important;
+			line-height: 42px !important;
 		}
 
 		/* Fix squashed contact page header on mobile */
