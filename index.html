@@ -55,19 +55,33 @@
 		font-size: 40px !important;
 	}
 
-	/* MOBILE FIX: Prevent navigation icons from wrapping onto a second line */
+/* MOBILE FIXES */
 	@media screen and (max-width: 480px) {
+		/* Prevent navigation icons from wrapping */
 		#nav {
 			top: -15px !important;
 		}
 		#nav a {
-			font-size: 24px !important; /* Slightly smaller icons on mobile */
-			width: 2.2em !important;    /* Reduces spacing around each icon */
+			font-size: 24px !important;
+			width: 2.2em !important;
 			height: 2.2em !important;
 			line-height: 2.2em !important;
 		}
+
+		/* Fix squashed contact page header on mobile */
+		#contact header {
+			flex-direction: column !important;
+			align-items: center !important;
+			text-align: center !important;
+		}
+		#contact header img {
+			margin-left: 0 !important;
+			margin-top: 1em !important;
+			width: 120px !important;
+		}
 	}
-</style><!-- Google tag (gtag.js) -->
+</style>
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHNQ1SM5D1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
