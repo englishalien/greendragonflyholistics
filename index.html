@@ -55,17 +55,25 @@
 		font-size: 40px !important;
 	}
 
-/* MOBILE FIXES */
+	/* MOBILE FIXES */
 	@media screen and (max-width: 480px) {
-		/* Prevent navigation icons from wrapping */
+		/* Adjust navigation container so all 6 items fit in a single row */
 		#nav {
 			top: -15px !important;
+			width: 100% !important;
+			max-width: 320px !important;
+			left: 50% !important;
+			transform: translateX(-50%) !important;
+			margin-left: 0 !important;
+			display: flex !important;
+			justify-content: space-around !important;
 		}
 		#nav a {
-			font-size: 24px !important;
-			width: 2.2em !important;
-			height: 2.2em !important;
-			line-height: 2.2em !important;
+			font-size: 20px !important;
+			width: 2em !important;
+			height: 2em !important;
+			line-height: 2em !important;
+			margin: 0 !important;
 		}
 
 		/* Fix squashed contact page header on mobile */
