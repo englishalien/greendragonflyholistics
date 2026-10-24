@@ -1,84 +1,332 @@
 <!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP (Adapted for Green Dragonfly Holistics)
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-    <title>Green Dragonfly Holistics - Coming Soon</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    
-    <!-- Google Font: Montserrat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+	<head>
+		<title>Green Dragonfly Holistics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Fit the logo completely without cropping */
+			#main > .panel.intro .pic {
+				background-color: #849161 !important; /* Matches your sage green theme */
+			}
+			/* Center title and tagline on the Home page */
+			#main > .panel.intro header {
+				text-align: center !important;
+			}
+			#main > .panel.intro .pic img {
+				object-fit: contain !important;
+				padding: 1em; /* Adds breathing room around the logo */
+			}
+			/* Removes the dark overlay so your logo colors stay bright */
+			#main > .panel.intro .pic:before {
+				display: none !important;
+			}
+			/* Move the navigation icons up */
+			#nav {
+				top: -25px !important;
+			}
+			/* Make navigation icons custom size */
+			#nav a {
+				font-size: 40px !important;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #849161; /* Sage Green */
-            color: #eeeee6; /* Soft Cream */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-            padding: 20px;
-        }
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#services" class="icon solid fa-spa"><span>Offerings</span></a>
+						<a href="#booking" class="icon solid fa-calendar-alt"><span>Booking</span></a>
+						<a href="#info" class="icon solid fa-question-circle"><span>About</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Enquire</span></a>
+						<a href="https://instagram.com/greendragonflyholistics" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span>Instagram</span></a>
+					</nav>
 
-        .container {
-            max-width: 600px;
-            width: 100%;
-        }
+				<!-- Main -->
+					<div id="main">
 
-        .logo {
-            max-width: 220px;
-            height: auto;
-            object-fit: contain;
-            margin-bottom: 2rem;
-        }
+						<!-- Home Panel -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Green Dragonfly Holistics</h1>
+									<p>Ground, Drift, Heal</p>
+								</header>
+								<a href="#services" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>What GDH offers</span></span>
+									<img src="images/logo.png" alt="Green Dragonfly Holistics Logo" onerror="this.src='images/me.jpg'" />
+								</a>
+							</article>
 
-        h1 {
-            font-weight: 400;
-            font-size: 2.2rem;
-            letter-spacing: -0.015em;
-            margin-bottom: 0.75rem;
-            color: #ffffff;
-        }
+						<!-- Services / Offerings Panel -->
+							<article id="services" class="panel">
+								<header>
+									<h2>Offerings</h2>
+									<p style="font-size: 0.9em; line-height: 1.6; margin-bottom: 1em;">
+										Find your way to calm.<br />
+										Relaxation looks different for everyone. Some people need to quieten a busy mind, others need to feel held and restored, and some simply need their body to melt. Each of our services offers its own route to rest, whether through sound, stillness or touch. Choose the one that speaks to you, or explore them together for a deeper, more rounded reset.
+									</p>
+								</header>
 
-        p {
-            font-weight: 300;
-            font-size: 1.25rem;
-            letter-spacing: 0.05em;
-            opacity: 0.9;
-        }
+								<section style="margin-top: 2em;">
+									<!-- Service 1: Sound Bath (Image Left, Text Right) -->
+									<div class="row" style="align-items: center; margin-bottom: 3.5em;">
+										<div class="col-6 col-12-medium">
+											<span class="image fit" style="border-radius: 8px; overflow: hidden;"><img src="images/gdh5.jpg" alt="Sound Bath" /></span>
+										</div>
+										<div class="col-6 col-12-medium">
+											<h3 style="color: #2f3526; margin-bottom: 0.5em;">Sound Bath</h3>
+											<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 1em;">
+												<strong>Let the sound do the work.</strong><br />
+												Lie back and be enveloped by the deep, resonant tones of singing bowls, gongs and other therapeutic instruments. You don’t need to focus, meditate or “get it right”. The vibrations move through the room and through you, gently pulling a busy mind out of its loops and into the present.
+											</p>
+											<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 1em;">
+												<strong>Best for:</strong> anyone who finds it hard to switch off, or who’s tried meditation and struggled to quieten their thoughts. The sound gives your mind something soothing to follow, so stillness comes more easily.<br />
+												<strong>You’ll leave feeling:</strong> mentally clear, lighter and refreshed, as if you’ve had a deep reset.
+											</p>
+											<blockquote style="border-left: 3px solid #849161; padding-left: 1em; margin: 1em 0; font-style: italic; color: #555;">
+												"Pause, breathe, and let the sounds carry you into stillness."
+											</blockquote>
+										</div>
+									</div>
 
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.6rem;
-            }
-            p {
-                font-size: 1rem;
-            }
-            .logo {
-                max-width: 170px;
-            }
-        }
-    </style>
-</head>
-<body>
+									<!-- Service 2: Reiki (Text Left, Image Right) -->
+									<div class="row" style="align-items: center; margin-bottom: 3.5em;">
+										<div class="col-6 col-12-medium">
+											<h3 style="color: #2f3526; margin-bottom: 0.5em;">Reiki</h3>
+											<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 1em;">
+												<strong>Quiet, restorative stillness.</strong><br />
+												A calm, hands-on-or-just-above-the-body practice rooted in Japanese tradition, Reiki is about being held in stillness. There’s no music to follow and nothing to process, just a peaceful space where you can rest and receive. Many people find sessions especially grounding when life feels emotionally heavy or you simply need to feel looked after.
+											</p>
+											<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 1em;">
+												<strong>Best for:</strong> moments when you’re feeling overwhelmed, depleted or emotionally stretched, and need a gentle, nurturing space to settle and rebalance.<br />
+												<strong>You’ll leave feeling:</strong> calm, grounded and cared for, with a softer, more settled emotional state.
+											</p>
+											<blockquote style="border-left: 3px solid #849161; padding-left: 1em; margin: 1em 0; font-style: italic; color: #555;">
+												"A moment of calm, a space to reconnect, and time to nurture yourself from within."
+											</blockquote>
+										</div>
+										<div class="col-6 col-12-medium">
+											<span class="image fit" style="border-radius: 8px; overflow: hidden;"><img src="images/gdh7.jpg" alt="Reiki" /></span>
+										</div>
+									</div>
 
-    <div class="container">
-        <!-- Logo -->
-        <img src="images/logo.png" alt="Green Dragonfly Holistics Logo" class="logo" onerror="this.style.display='none'">
+									<!-- Service 3: ASMR Massage (Image Left, Text Right) -->
+									<div class="row" style="align-items: center; margin-bottom: 2em;">
+										<div class="col-6 col-12-medium">
+											<span class="image fit" style="border-radius: 8px; overflow: hidden;"><img src="images/gdh6.jpg" alt="ASMR Massage" /></span>
+										</div>
+										<div class="col-6 col-12-medium">
+											<h3 style="color: #2f3526; margin-bottom: 0.5em;">ASMR Massage</h3>
+											<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 1em;">
+												<strong>Relaxation you can feel on your skin.</strong><br />
+												This is the most sensory of the three. Feather-light strokes, delicate brushing and soft, rhythmic movements trigger that slow, tingling, melt-into-the-bed feeling many people recognise from ASMR. It’s a different route to relaxation: through touch, rather than sound or stillness.
+											</p>
+											<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 1em;">
+												<strong>Best for:</strong> anyone carrying physical tension or who struggles to relax until they’re really feeling something soothing. It’s also ideal if you’re curious about ASMR and want to experience it in person.<br />
+												<strong>You’ll leave feeling:</strong> deeply relaxed in your body, with tension eased and a heavy, blissful calm.
+											</p>
+											<blockquote style="border-left: 3px solid #849161; padding-left: 1em; margin: 1em 0; font-style: italic; color: #555;">
+												"Switch off from the outside world, settle into the moment, and let yourself drift into deep relaxation."
+											</blockquote>
+										</div>
+									</div>
 
-        <!-- Main Heading & Text -->
-        <h1>Green Dragonfly Holistics</h1>
-        <p>coming soon...</p>
-    </div>
+									<!-- Combining Therapies Box -->
+									<div style="background-color: rgba(132, 145, 97, 0.1); border-left: 4px solid #849161; padding: 1.5em; border-radius: 6px; margin-top: 2em;">
+										<h4 style="color: #2f3526; margin-bottom: 0.5em;">Why not combine therapies?</h4>
+										<p style="font-size: 0.85em; line-height: 1.6; margin-bottom: 0;">
+											Each service relaxes you in a different way: sound for the mind, Reiki for the emotions, ASMR touch for the body. Many clients enjoy alternating between them, or pairing them for a full-spectrum reset. Ask about combining services to find the perfect blend for you.
+										</p>
+									</div>
+								</section>
+							</article>
 
-</body>
+						<!-- Booking Panel (Setmore Live Inline Calendar) -->
+							<article id="booking" class="panel">
+								<header style="display: flex; justify-content: space-between; align-items: flex-start;">
+									<div>
+										<h2>Book an Appointment</h2>
+										<p>Select a time and date below to book your session with us.</p>
+										<p style="font-size: 0.85em; opacity: 0.8;">Payment is required when booking, to reserve your place.</p>
+									</div>
+								</header>
+								<div class="booking-container" style="width: 100%; min-height: 650px; overflow: hidden;">
+									<!-- Embedded Setmore live schedule page -->
+									<iframe 
+										src="https://greendragonflyholistics.setmore.com" 
+										width="100%" 
+										height="650" 
+										frameborder="0" 
+										scrolling="yes" 
+										style="border: none; border-radius: 8px;">
+									</iframe>
+								</div>
+							</article>
+
+						<!-- Info / About Panel -->
+							<!-- Info / About Panel -->
+<!-- Info / About Panel -->
+<!-- Info / About Panel -->
+<article id="info" class="panel">
+    <header>
+        <h2>Who's behind Green Dragonfly Holistics?</h2>
+    </header>
+
+    <section style="max-width: 800px; margin: 0 auto;">
+        
+        <!-- Profile Image -->
+        <div style="text-align: center; margin-bottom: 2em;">
+            <span class="image fit" style="max-width: 200px; margin: 0 auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                <img src="images/me.jpg" alt="Linda - Green Dragonfly Holistics" />
+            </span>
+        </div>
+
+        <!-- Greeting & Opening Story -->
+        <h3 style="color: #2f3526; margin-bottom: 0.5em; font-size: 1.4em;">Hello, I’m Linda.</h3>
+        
+        <p style="line-height: 1.7; margin-bottom: 1.2em;">
+            I spent years as a project analyst, a world of deadlines, data and a brain that never quite switched off. Then, completely by accident, I ended up at a gong bath.
+        </p>
+
+        <p style="line-height: 1.7; margin-bottom: 1.5em;">
+            It was part of a yoga retreat day, and I hadn’t even spotted it on the schedule when I booked. Twenty minutes in, my muscles had melted, my stubborn hips had finally let go, and my mind had drifted somewhere I never knew it could go. I walked out blown away, and a little bit changed.
+        </p>
+
+        <!-- Why I Trained Section -->
+        <h3 style="color: #2f3526; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #849161; padding-bottom: 0.3em; display: inline-block;">Why I trained</h3>
+
+        <p style="line-height: 1.7; margin-bottom: 1.2em; margin-top: 0.8em;">
+            After that first gong, I went looking for more. Every sound bath left me feeling softer, calmer and more at ease than I’d felt in years.
+        </p>
+
+        <p style="line-height: 1.7; margin-bottom: 1.2em;">
+            Then I was offered redundancy. Instead of panicking, I took it as the universe nudging me towards something more meaningful: helping other people feel the way I’d felt that day.
+        </p>
+
+        <p style="line-height: 1.7; margin-bottom: 1.5em;">
+            A one-day sound healing course left me with more questions than answers, so I went in search of a proper teacher. I trained with SoundSphere Scotland on the six-month Alembic Sound diploma, a mix of hands-on case studies, the science behind sound, and plenty of time playing the instruments. I finished with a distinction, and I’ve never looked back. Reiki came next, with Levels 1 and 2 over eight months with Reiki Evolution, followed by ASMR massage training with a hands-on practical assessment.
+        </p>
+
+        <!-- Three Treatments Section -->
+        <h3 style="color: #2f3526; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #849161; padding-bottom: 0.3em; display: inline-block;">Three treatments, one idea</h3>
+
+        <p style="line-height: 1.7; margin-bottom: 1.5em; margin-top: 0.8em;">
+            I chose sound, Reiki and ASMR touch because they work beautifully together. Sound quietens the mind, Reiki settles the emotions and ASMR melts the body, so between them there’s a route to relaxation for everyone. You can book them separately, or I’ll happily blend them into a session made just for you.
+        </p>
+
+        <!-- Quote Callout -->
+        <blockquote style="border-left: 4px solid #849161; background: rgba(132, 145, 97, 0.08); padding: 1.2em 1.5em; margin: 2em 0; font-style: italic; color: #333; border-radius: 0 8px 8px 0;">
+            "Relaxation is a process, not a one-time fix. But even a single session can ripple through the rest of your day, your week and beyond."
+        </blockquote>
+
+        <!-- There's No Wrong Way Section -->
+        <h3 style="color: #2f3526; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #849161; padding-bottom: 0.3em; display: inline-block;">There’s no wrong way to relax</h3>
+
+        <p style="line-height: 1.7; margin-bottom: 1.2em; margin-top: 0.8em;">
+            If I could change one thing, it would be the idea that you have to be “good” at resting. Your brain might race. Your body might cling to tension. That doesn’t mean you’re doing it wrong, and it doesn’t mean the treatment isn’t working.
+        </p>
+
+        <p style="line-height: 1.7; margin-bottom: 1.5em;">
+            Relaxation is a process, not a one-time fix. But even a single session can ripple through the rest of your day, your week and beyond.
+        </p>
+
+        <!-- What to Expect Section -->
+        <h3 style="color: #2f3526; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #849161; padding-bottom: 0.3em; display: inline-block;">What to expect</h3>
+
+        <p style="line-height: 1.7; margin-bottom: 1.2em; margin-top: 0.8em;">
+            My space is warm, calm and welcoming, and you’ll be in good hands from the moment you arrive. First-timers often walk in nervous, and that’s completely normal. Most people find it melts away within minutes.
+        </p>
+
+        <p style="line-height: 1.7; margin-bottom: 1.5em;">
+            Clients have described my energy as gentle and said I’m good at putting them at ease. They leave deeply relaxed, and several have told me they sleep brilliantly afterwards.
+        </p>
+
+        <!-- Practising What I Preach Section -->
+        <h3 style="color: #2f3526; margin-top: 2em; margin-bottom: 0.5em; border-bottom: 2px solid #849161; padding-bottom: 0.3em; display: inline-block;">Practising what I preach (when I can)</h3>
+
+        <p style="line-height: 1.7; margin-bottom: 1.2em; margin-top: 0.8em;">
+            I’ll be honest: even with a business built around rest, I’m not always brilliant at making time for it myself. But I try to start every morning with ten minutes of meditation or gentle movement, even on the busiest days. I’ve been strength training for years (and keep regular sessions with my PT, because without them I probably wouldn’t go!). Yoga is my real saviour. I look forward to my weekly class with a small, friendly group of women, and it’s where I switch off best.
+        </p>
+
+        <p style="line-height: 1.7; margin-bottom: 1.5em;">
+            It keeps me grounded, and it reminds me that looking after yourself is something we all have to keep choosing.
+        </p>
+
+        <!-- Ready When You Are Section & CTA -->
+        <div style="text-align: center; margin-top: 3em; padding-top: 2em; border-top: 1px solid #ddd;">
+            <h3 style="color: #2f3526; margin-bottom: 0.5em; font-size: 1.3em;">Ready when you are</h3>
+            <p style="line-height: 1.7; margin-bottom: 1.5em;">
+                Whether you need quiet, comfort or a full-body melt, I’d love to welcome you in. Book a session and find the kind of calm that works for you.
+            </p>
+            <a href="#booking" class="button primary" style="background-color: #849161; border-color: #849161;">Book a Session</a>
+        </div>
+
+    </section>
+</article>
+
+						<!-- Contact Panel -->
+							<article id="contact" class="panel">
+								<header style="display: flex; justify-content: space-between; align-items: flex-start;">
+									<div>
+										<h2>Enquire</h2>
+										<p>We would love to hear from you.</p>
+										<p style="font-size: 0.85em; opacity: 0.8;">I offer group therapies too - perhaps you're looking for something different for a hen party, a baby shower, or a corporate wellbeing event. Please enquire using the form below. </p>
+									</div>
+									<img src="images/logo2.png" alt="Green Dragonfly Logo" style="width: 155px; height: auto; object-fit: contain; margin-left: 1em; margin-top: -20px;" />
+								</header>
+								<form action="https://formspree.io/f/mjyybpvg" method="POST">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" required />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="email" name="email" placeholder="Email" required />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Green Dragonfly Holistics. All rights reserved.</li>
+							<li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
