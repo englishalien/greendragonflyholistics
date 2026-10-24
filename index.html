@@ -29,33 +29,45 @@
 		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			/* Fit the logo completely without cropping */
-			#main > .panel.intro .pic {
-				background-color: #849161 !important; /* Matches your sage green theme */
-			}
-			/* Center title and tagline on the Home page */
-			#main > .panel.intro header {
-				text-align: center !important;
-			}
-			#main > .panel.intro .pic img {
-				object-fit: contain !important;
-				padding: 1em; /* Adds breathing room around the logo */
-			}
-			/* Removes the dark overlay so your logo colors stay bright */
-			#main > .panel.intro .pic:before {
-				display: none !important;
-			}
-			/* Move the navigation icons up */
-			#nav {
-				top: -25px !important;
-			}
-			/* Make navigation icons custom size */
-			#nav a {
-				font-size: 40px !important;
-			}
-		</style>
-<!-- Google tag (gtag.js) -->
+<style>
+	/* Fit the logo completely without cropping */
+	#main > .panel.intro .pic {
+		background-color: #849161 !important; /* Matches your sage green theme */
+	}
+	/* Center title and tagline on the Home page */
+	#main > .panel.intro header {
+		text-align: center !important;
+	}
+	#main > .panel.intro .pic img {
+		object-fit: contain !important;
+		padding: 1em; /* Adds breathing room around the logo */
+	}
+	/* Removes the dark overlay so your logo colors stay bright */
+	#main > .panel.intro .pic:before {
+		display: none !important;
+	}
+	/* Move the navigation icons up */
+	#nav {
+		top: -25px !important;
+	}
+	/* Make navigation icons custom size on desktop */
+	#nav a {
+		font-size: 40px !important;
+	}
+
+	/* MOBILE FIX: Prevent navigation icons from wrapping onto a second line */
+	@media screen and (max-width: 480px) {
+		#nav {
+			top: -15px !important;
+		}
+		#nav a {
+			font-size: 24px !important; /* Slightly smaller icons on mobile */
+			width: 2.2em !important;    /* Reduces spacing around each icon */
+			height: 2.2em !important;
+			line-height: 2.2em !important;
+		}
+	}
+</style><!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHNQ1SM5D1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
