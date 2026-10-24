@@ -5,7 +5,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
+<head>
 <title>Green Dragonfly Holistics | Sound Baths, Reiki & ASMR Massage near Glasgow</title>
 <meta name="description" content="Discover calm with Green Dragonfly Holistics near Glasgow. Offering therapeutic sound baths, restorative Reiki, and ASMR massage." />
 <script type="application/ld+json">
@@ -79,6 +79,19 @@
 			line-height: 42px !important;
 		}
 
+		/* Force Heading -> Picture -> Text order on mobile for all therapies */
+		#therapies .row {
+			display: flex !important;
+			flex-direction: column !important;
+		}
+		/* For rows where text is first in HTML (like Reiki), shift text to the bottom */
+		#therapies .row > div:nth-child(1):has(h3) {
+			order: 2 !important;
+		}
+		#therapies .row > div:nth-child(2) {
+			order: 1 !important;
+		}
+
 		/* Fix squashed contact page header on mobile */
 		#contact header {
 			flex-direction: column !important;
@@ -101,7 +114,7 @@
 
   gtag('config', 'G-RHNQ1SM5D1');
 </script>
-	</head>
+	</head>	
 	<body class="is-preload">
 
 		<!-- Wrapper -->
